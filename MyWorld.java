@@ -4,7 +4,7 @@ public class MyWorld extends World {
     public MyWorld() {
         super(600, 400, 1);
         
-        Banana banana = new Banana();
-        addObject(banana, 600, 100);
+        Pig pig = new Pig();
+        addObject(pig, 100, 100);
     }
 }
