@@ -9,7 +9,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Pig extends Actor
 {
     boolean atTop = true;
-        
+    
+    public Pig() {
+        setImage("images/pig.png");
+    }
     public void act()
     {    
     if(Greenfoot.mouseClicked(null))
